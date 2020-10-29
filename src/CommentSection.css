@@ -1,0 +1,37 @@
+.CommentSection {
+    padding-top: 1rem;
+    margin: 2rem auto;
+}
+
+.CommentSection-logo {
+    height: 80px;
+}
+
+.Spin {
+    animation: CommentSection-logo-spin infinite 2s linear;
+}
+
+.CommentSection-header {
+    text-align: center;
+    background-color: var(--secondary);
+    padding: 20px;
+    color: white;
+    border-radius: 0.3rem;
+}
+
+.CommentSection-title {
+    font-size: 1.5em;
+}
+
+.CommentSection-intro {
+    font-size: large;
+}
+
+@keyframes CommentSection-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
